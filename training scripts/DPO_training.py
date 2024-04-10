@@ -17,7 +17,7 @@ parser.add_argument('-rp', '--ref_model_path')
 parser.add_argument('-pbp', '--peft_base_model_path')
 parser.add_argument('-dp', '--dataset_path')
 parser.add_argument('-t', '--training_type',
-                    help='training type (full, last, attn)')
+                    help='training type (full, peft)')
 parser.add_argument('-nllr', '--neg_log_learning_rate', type=float, default=5.)
 parser.add_argument('-nlb', '--neg_log_beta', type=float, default=2.)
 parser.add_argument('-opt', '--optimizer', default='adamw_torch')
